@@ -1,6 +1,6 @@
 {
   "name": "@nae-bad/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nae-Bad's eslint config.",
   "main": "index.js",
   "scripts": {
@@ -25,10 +25,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-next": "^13.1.0",
-    "eslint-config-prettier": "^8.5.0"
-  },
-  "peerDependencies": {
-    "eslint": ">= 3",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": ">= 2.22.1",
     "eslint-plugin-jest": ">= 24.3.6",
     "eslint-plugin-jest-dom": ">= 3.9.0",
@@ -41,5 +38,9 @@
     "eslint-plugin-tailwindcss": ">= 1.4.0",
     "eslint-plugin-testing-library": ">= 4.9.2",
     "eslint-plugin-unused-imports": ">= 1.1.4"
+  },
+  "peerDependencies": {
+    "eslint": "^6 || ^7.2.0",
+    "prettier": ">= 1.13"
   }
 }
